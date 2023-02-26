@@ -379,9 +379,6 @@
                       "borderColor": "#fff",
                       "dynamicPropertyPathList": [
                         {
-                          "key": "borderRadius"
-                        },
-                        {
                           "key": "boxShadow"
                         }
                       ],
@@ -394,9 +391,6 @@
                       "dynamicTriggerPathList": [],
                       "leftColumn": 0,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "borderRadius"
-                        },
                         {
                           "key": "boxShadow"
                         }
@@ -786,7 +780,7 @@
                       "version": 1,
                       "parentId": "p44q4jvrcn",
                       "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "borderRadius": "0.375rem",
                       "maxDynamicHeight": 9000,
                       "minDynamicHeight": 4
                     }
@@ -902,7 +896,7 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "originalTopRow": 8,
-              "borderRadius": "0px",
+              "borderRadius": "0.375rem",
               "maxDynamicHeight": 9000,
               "originalBottomRow": 90,
               "minDynamicHeight": 10
@@ -1048,11 +1042,11 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "data_table.sortOrder.order || 'ASC'",
+                "(data_table.pageNo - 1) * data_table.pageSize",
                 "data_table.pageSize",
                 "data_table.searchText || \"\"",
                 "data_table.sortOrder.column || 'name'",
-                "(data_table.pageNo - 1) * data_table.pageSize"
+                "data_table.sortOrder.order || 'ASC'"
               ],
               "timeoutInMillisecond": 10000
             }
