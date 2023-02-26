@@ -1130,7 +1130,7 @@
                       "alignWidget": "LEFT",
                       "isDisabled": false,
                       "isRequired": false,
-                      "isVisible": true,
+                      "isVisible": false,
                       "labelTextSize": "0.875rem",
                       "label": "Is Secret"
                     },
@@ -1174,7 +1174,7 @@
                       "isDisabled": false,
                       "isRequired": false,
                       "isSpellCheck": false,
-                      "isVisible": true,
+                      "isVisible": false,
                       "labelTextSize": "0.875rem",
                       "label": "Custom Column 2"
                     }
