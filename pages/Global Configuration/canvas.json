@@ -14,7 +14,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 900,
+          "bottomRow": 850,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -35,7 +35,7 @@
               "displayName": "Tabs",
               "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
               "topRow": 8,
-              "bottomRow": 90,
+              "bottomRow": 85,
               "parentRowSpace": 10,
               "type": "TABS_WIDGET",
               "hideCard": false,
@@ -54,7 +54,7 @@
                   "tabId": "tab1",
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
-                  "bottomRow": 780,
+                  "bottomRow": 760,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
@@ -803,6 +803,72 @@
                   "parentId": "xgk0si0mve",
                   "renderMode": "CANVAS",
                   "isLoading": false
+                },
+                {
+                  "tabId": "tabdozwgnzyps",
+                  "widgetName": "Canvas5",
+                  "displayName": "Canvas",
+                  "topRow": 1,
+                  "bottomRow": 730,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 820,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Iframe1",
+                      "displayName": "Iframe",
+                      "iconSVG": "/static/media/icon.34169b6acebc8ace125dd1f638974aae.svg",
+                      "searchTags": [
+                        "embed"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 71,
+                      "parentRowSpace": 10,
+                      "source": "https://app.appsmith.com/app/credentials-63fbb3d352683f50771122a5?branch=master&embed=true",
+                      "type": "IFRAME_WIDGET",
+                      "hideCard": false,
+                      "borderOpacity": 100,
+                      "animateLoading": true,
+                      "parentColumnSpace": 19.5,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "borderWidth": "0",
+                      "key": "o1faoyqmud",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "widgetId": "86wsvkgd59",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "cm7ezkx0sg",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                    }
+                  ],
+                  "key": "bs68ahhsja",
+                  "isDeprecated": false,
+                  "tabName": "Test",
+                  "rightColumn": 1268,
+                  "detachFromLayout": true,
+                  "widgetId": "cm7ezkx0sg",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "xgk0si0mve",
+                  "renderMode": "CANVAS",
+                  "isLoading": false
                 }
               ],
               "borderWidth": 1,
@@ -823,6 +889,13 @@
                   "isVisible": true,
                   "index": 0,
                   "isDuplicateLabel": false
+                },
+                "tabdozwgnzyps": {
+                  "id": "tabdozwgnzyps",
+                  "index": 1,
+                  "label": "Test",
+                  "widgetId": "cm7ezkx0sg",
+                  "isVisible": true
                 }
               },
               "isVisible": true,
