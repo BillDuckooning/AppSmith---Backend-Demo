@@ -1320,7 +1320,7 @@
                 "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                 "buttonVariant": "SECONDARY"
               },
-              "isVisible": "{{data_table.selectedRow != null}}",
+              "isVisible": "{{!!data_table.selectedRow.name}}",
               "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",
