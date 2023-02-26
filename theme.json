@@ -38,7 +38,7 @@
   },
   "properties": {
     "colors": {
-      "primaryColor": "ffce5b",
+      "primaryColor": "#3b82f6",
       "backgroundColor": "#fafafa"
     },
     "borderRadius": {
