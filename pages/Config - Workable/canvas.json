@@ -427,7 +427,7 @@
                           "enableSort": true,
                           "isVisible": true,
                           "isDisabled": false,
-                          "isCellVisible": true,
+                          "isCellVisible": false,
                           "isDerived": true,
                           "label": "Edition",
                           "computedValue": "",
@@ -477,7 +477,7 @@
                           "enableSort": true,
                           "isVisible": true,
                           "isDisabled": false,
-                          "isCellVisible": true,
+                          "isCellVisible": false,
                           "isDerived": true,
                           "label": "Edition",
                           "computedValue": "",
@@ -1243,9 +1243,6 @@
                   "key": "sourceData"
                 },
                 {
-                  "key": "isVisible"
-                },
-                {
                   "key": "schema.__root_schema__.borderRadius"
                 },
                 {
@@ -1301,6 +1298,9 @@
                 },
                 {
                   "key": "schema.__root_schema__.children.customColumn2.accentColor"
+                },
+                {
+                  "key": "isVisible"
                 }
               ],
               "borderWidth": "0",
@@ -1320,7 +1320,7 @@
                 "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                 "buttonVariant": "SECONDARY"
               },
-              "isVisible": "{{!!data_table.selectedRow.name}}",
+              "isVisible": "{{data_table.selectedRow != null}}",
               "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",
