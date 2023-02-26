@@ -884,7 +884,7 @@
                   "index": 0,
                   "label": "Test",
                   "widgetId": "cm7ezkx0sg",
-                  "isVisible": true,
+                  "isVisible": false,
                   "isDuplicateLabel": false
                 },
                 "tab1": {
