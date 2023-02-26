@@ -2,6 +2,7 @@
   "unpublishedPage": {
     "name": "Config - Workable",
     "slug": "config-workable",
+    "customSlug": "creds",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +14,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 900,
+          "bottomRow": 730,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -1539,7 +1540,7 @@
               "iconSVG": "/static/media/icon.6bacf7df.svg",
               "onSubmit": "{{UpdateQuery.run(() => SelectQuery.run(), (error) => showAlert(`Error while updating resource!\\n ${error}`,'error'))}}",
               "topRow": 6,
-              "bottomRow": 43,
+              "bottomRow": 40,
               "fieldLimitExceeded": false,
               "parentRowSpace": 10,
               "title": "Update",
