@@ -14,7 +14,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 930,
+          "bottomRow": 920,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -824,7 +824,7 @@
                         "embed"
                       ],
                       "topRow": 0,
-                      "bottomRow": 71,
+                      "bottomRow": 69,
                       "parentRowSpace": 10,
                       "source": "https://app.appsmith.com/app/credentials-63fbb3d352683f50771122a5?branch=master&embed=true",
                       "type": "IFRAME_WIDGET",
@@ -867,7 +867,7 @@
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
               "rightColumn": 63,
-              "dynamicHeight": "AUTO_HEIGHT",
+              "dynamicHeight": "FIXED",
               "widgetId": "xgk0si0mve",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "defaultTab": "Credentials (Embed)",
@@ -895,10 +895,8 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 9,
               "borderRadius": "0.375rem",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 91,
               "minDynamicHeight": 10
             },
             {
@@ -1075,8 +1073,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 87,
-              "bottomRow": 93,
+              "topRow": 86,
+              "bottomRow": 92,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -1190,10 +1188,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 92,
+              "originalTopRow": 87,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 98,
+              "originalBottomRow": 93,
               "minDynamicHeight": 10
             }
           ]
