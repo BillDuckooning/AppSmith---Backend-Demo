@@ -271,7 +271,7 @@
                             "name": {
                               "children": {},
                               "dataType": "string",
-                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.name))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+                              "defaultValue": "",
                               "fieldType": "Text Input",
                               "sourceData": "JENKINS_IP_ADDRESS",
                               "isCustomField": false,
@@ -293,7 +293,7 @@
                             "value": {
                               "children": {},
                               "dataType": "string",
-                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.value))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+                              "defaultValue": "",
                               "fieldType": "Text Input",
                               "sourceData": "192.168.0.1",
                               "isCustomField": false,
@@ -358,10 +358,10 @@
                           "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
                         },
                         {
-                          "key": "onSubmit"
+                          "key": "schema.__root_schema__.children.is_secret.defaultValue"
                         },
                         {
-                          "key": "schema.__root_schema__.children.is_secret.defaultValue"
+                          "key": "onSubmit"
                         }
                       ],
                       "displayName": "JSON Form",
@@ -414,16 +414,10 @@
                           "key": "resetButtonStyles.buttonColor"
                         },
                         {
-                          "key": "schema.__root_schema__.children.name.defaultValue"
-                        },
-                        {
                           "key": "schema.__root_schema__.children.name.borderRadius"
                         },
                         {
                           "key": "schema.__root_schema__.children.name.accentColor"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.value.defaultValue"
                         },
                         {
                           "key": "schema.__root_schema__.children.value.borderRadius"
@@ -461,7 +455,7 @@
                       "isLoading": false,
                       "scrollContents": true,
                       "fixedFooter": true,
-                      "submitButtonLabel": "Submit",
+                      "submitButtonLabel": "Save",
                       "childStylesheet": {
                         "CHECKBOX": {
                           "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
