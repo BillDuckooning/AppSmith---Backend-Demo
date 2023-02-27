@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Global Configuration",
-    "slug": "global-configuration",
+    "name": "Dashboard",
+    "slug": "dashboard",
     "customSlug": "global-configuration",
     "layouts": [
       {
@@ -95,7 +95,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "Button1",
-                      "onClick": "{{closeModal('Delete_Modal')}}",
+                      "onClick": "{{closeModal('DeleteCredential_Modal')}}",
                       "dynamicPropertyPathList": [],
                       "buttonColor": "#2E3D49",
                       "topRow": 17,
@@ -129,7 +129,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "Delete_Button",
-                      "onClick": "{{DeleteQuery.run(() => SelectQuery.run(() => closeModal('Delete_Modal')), () => {})}}",
+                      "onClick": "{{DeleteQuery.run(() => SelectQuery.run(() => closeModal('DeleteCredential_Modal')), () => {})}}",
                       "dynamicPropertyPathList": [
                         {
                           "key": "onClick"
@@ -366,7 +366,7 @@
                       ],
                       "displayName": "JSON Form",
                       "iconSVG": "/static/media/icon.6bacf7df.svg",
-                      "onSubmit": "{{InsertQuery.run(\n\t() => SelectQuery.run()\n\t\t\t\t\t.then(() => closeModal('Insert_Modal')), \n\t(error) => showAlert(`Error while inserting resource!\\n ${error}`,'error'))\n}}",
+                      "onSubmit": "{{InsertQuery.run(\n\t() => SelectQuery.run()\n\t\t\t\t\t.then(() => closeModal('InsertCredential_Modal')), \n\t(error) => showAlert(`Error while inserting resource!\\n ${error}`,'error'))\n}}",
                       "topRow": 0,
                       "bottomRow": 34,
                       "fieldLimitExceeded": false,
@@ -1747,7 +1747,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Global Configuration_SelectQuery",
+              "id": "Dashboard_SelectQuery",
               "name": "SelectQuery",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -1764,7 +1764,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Global Configuration",
+        "id": "Dashboard",
         "deleted": false,
         "policies": [],
         "userPermissions": []

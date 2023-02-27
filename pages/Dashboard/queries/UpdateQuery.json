@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Global Configuration",
+    "pageId": "Dashboard",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -46,7 +46,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Global Configuration_UpdateQuery",
+  "id": "Dashboard_UpdateQuery",
   "deleted": false,
   "gitSyncId": "63fb90ca52683f507711211c_63fbc20613cf946f38a47819"
 }

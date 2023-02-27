@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Global Configuration",
+    "pageId": "Dashboard",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,7 +38,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Global Configuration_DeleteQuery",
+  "id": "Dashboard_DeleteQuery",
   "deleted": false,
   "gitSyncId": "63fb90ca52683f507711211c_63fbc1cf02d27175e02b78f4"
 }

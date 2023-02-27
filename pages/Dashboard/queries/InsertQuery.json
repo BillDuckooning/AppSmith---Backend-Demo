@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "SelectQuery",
+    "name": "InsertQuery",
     "datasource": {
       "name": "Supabase - DevOps Stuff",
       "pluginId": "postgres-plugin",
@@ -13,36 +13,39 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Global Configuration",
+    "pageId": "Dashboard",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM public.\"config\"\nWHERE \"name\" ilike '%{{data_table.searchText || \"\"}}%'\nORDER BY \"{{data_table.sortOrder.column || 'name'}}\" {{data_table.sortOrder.order || 'ASC'}}\nLIMIT {{data_table.pageSize}}\nOFFSET {{(data_table.pageNo - 1) * data_table.pageSize}};",
+      "body": "INSERT INTO public.\"config\" (\n\t\"name\",\n\t\"value\",\n\t\"is_secret\")\nVALUES (\n\t'{{insert_form.formData.name}}',\n\t'{{insert_form.formData.value}}',\n\t'{{insert_form.formData.is_secret}}');",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(data_table.pageNo - 1) * data_table.pageSize",
-      "data_table.pageSize",
-      "data_table.searchText || \"\"",
-      "data_table.sortOrder.column || 'name'",
-      "data_table.sortOrder.order || 'ASC'"
+      "insert_form.formData.is_secret",
+      "insert_form.formData.name",
+      "insert_form.formData.value"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Global Configuration_SelectQuery",
+  "id": "Dashboard_InsertQuery",
   "deleted": false,
-  "gitSyncId": "63fb90ca52683f507711211c_63fbc1fdc016ee06f90e59d5"
+  "gitSyncId": "63fb90ca52683f507711211c_63fbc1d852683f50771122f6"
 }
