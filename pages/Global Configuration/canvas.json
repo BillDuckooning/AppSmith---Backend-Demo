@@ -1137,11 +1137,14 @@
                         },
                         {
                           "key": "borderRadius"
+                        },
+                        {
+                          "key": "text"
                         }
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Passive Solutions | ©2022-2023",
+                      "text": "Passive Solutions | ©2022-{{Utils.getYear()}}",
                       "key": "isv649llpo",
                       "isDeprecated": false,
                       "rightColumn": 64,
