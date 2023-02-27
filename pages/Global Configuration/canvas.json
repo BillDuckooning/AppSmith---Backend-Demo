@@ -1084,7 +1084,7 @@
               "animateLoading": true,
               "parentColumnSpace": 19.8125,
               "dynamicTriggerPathList": [],
-              "leftColumn": 1,
+              "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -1178,7 +1178,7 @@
               "key": "9cx0e2wnx4",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 63,
+              "rightColumn": 64,
               "dynamicHeight": "FIXED",
               "widgetId": "lliy5svee1",
               "containerStyle": "card",
